@@ -1,0 +1,14 @@
+Logic1:
+We know that if a number is a power of two and if we subtract 1 from the number, all the bits become 1. Therefore if we perform
+bitwise & of x and x-1, then the result will be zero. (0 is itself an exception)
+
+
+Logic2:
+If we take any number, subtract 1 from it, then, the bits after the rightmost one in x gets reversed including the one itself.
+The left most bits will remain the same.
+Ex -> 6 = 110
+   -> 5 = 101
+   
+   -> 8 = 1000
+   -> 7 = 0111
+And if we perform bitwise & then, we will get the zero. (0 is itself an exception)
