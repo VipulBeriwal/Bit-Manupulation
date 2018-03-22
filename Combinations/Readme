@@ -1,0 +1,9 @@
+Logic:
+
+We know that if a set contains n elements then total possible combinations (subsets) of that sets are 2^(n).
+We can represent the state of set with the index number. For eg: if we have (a,b,c), then 5th index number means
+(1,0,1).
+
+Now, we can adjust out program that if we contain 1 at nth bit then only print the value. Finding the nth index
+is 1 or not we have discussed in the previous "Nth_Set_Bit" example. However, this program uses Logic:2 while calculating 
+bit at nth index.
