@@ -1,0 +1,9 @@
+Logic1:
+
+We perform logical & of given number with 2^(k), if we get 1 then bit is set else not.
+The 2^k will have all bits zero except (k+1) bit is set to 1. Performing & will result in non - zero number.
+
+Logic2:
+
+We shift the bit with k-1 times and perform logical & with "1", if we get 1 then bit was high else not.
+
