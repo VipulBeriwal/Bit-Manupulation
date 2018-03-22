@@ -1,0 +1,10 @@
+Logic:
+
+If we subtract 1 from the number and keep doing logical &, then the number of steps it takes to becomes zero, gives the count
+of "ones" in a binary form.
+
+Ex- 
+count = 0
+(9 => 1001) & (8 => 1000) = (1000 => 8), count = 1
+(1000 => 8) & (7 => 0111) = 0000, count = 2(9 => 1001)
+
